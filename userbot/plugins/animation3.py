@@ -311,7 +311,7 @@ async def _(event):
             "What The",
             "What The S",
             "What The Suprise Brah",
-            "What The F Brah\nhttps://telegra.ph/Suprise-06-11"
+            "What The Suprise Brah\nhttps://telegra.ph/Suprise-06-11"
         ]
     for i in animation_ttl:
         	
