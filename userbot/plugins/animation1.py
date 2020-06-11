@@ -76,7 +76,7 @@ async def _(event):
             "`Me: Hello Sir, Please Ban This Telegram Account.`",    
             "`Shivamani : May I Know Who Is This?`",
             f"`Me: Yo Brah, I Am` {DEFAULTUSER} ",
-            "`Shivamani : OMG!!! Long time no see, Wassup cat...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
+            "`Shivamani : OMG...🤩!!! Long time no see, Wassup Pv...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
             "`Me: Thanks, See You Later Brah.`",
             "`Shivamani : Please Don't Thank Brah, Telegram Is Our's. Just Gimme A Call When You Become Free.`",
             "`Me: Is There Any Issue/Emergency???`",
