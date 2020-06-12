@@ -150,7 +150,7 @@ async def on_afk(event):
             f"\n\n__I promise I'll back in a few light years__\n**REASON**: {reason}" \
             if reason \
             else f"**Heya!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? Soon __Whenever I feel like it__**( ಠ ʖ̯ ಠ)**  " 
-           else f"**hy...! its pv personal message**\n__Don't Disturb me i need some peace...see you soon sorry if i hurt u "
+
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
