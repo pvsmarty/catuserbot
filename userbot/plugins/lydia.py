@@ -13,7 +13,7 @@ if Var.LYDIA_API_KEY:
     lydia = LydiaAI(api_client)
 
 
-@command(pattern="^.addcf", outgoing=True)
+@command(pattern="^.gobaby", outgoing=True)
 async def addcf(event):
     if event.fwd_from:
         return
@@ -31,7 +31,7 @@ async def addcf(event):
     else:
         await event.edit("Reply to a user to activate Lydia AI on them")
 
-@command(pattern="^.remcf", outgoing=True)
+@command(pattern="^.stopbaby", outgoing=True)
 async def remcf(event):
     if event.fwd_from:
         return
