@@ -38,7 +38,7 @@ async def autopic(event):
     photo = "userbot/photo_pfp.png"
     while not downloader.isFinished():
         place_holder = None
-    counter = -30
+    counter = -20
     while True:
         shutil.copy(downloaded_file_name, photo)
         im = Image.open(photo)
@@ -46,7 +46,7 @@ async def autopic(event):
         current_time = datetime.now().strftime(" Time: %H:%M \n Date: %d.%m.%y ")
         img = Image.open(photo)
         drawn_text = ImageDraw.Draw(img)
-        fnt = ImageFont.truetype(FONT_FILE_TO_USE, 15)
+        fnt = ImageFont.truetype(FONT_FILE_TO_USE, 05)
         drawn_text.text((350, 350), current_time, font=fnt, fill=(124, 252, 0))
         img.save(photo)
         file = await bot.upload_file(photo)  # pylint:disable=E0602
@@ -55,7 +55,7 @@ async def autopic(event):
                 file
             ))
             os.remove(photo)
-            counter -= 30
+            counter -= 20
             await asyncio.sleep(30)
         except:
             return
